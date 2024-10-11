@@ -1,0 +1,11 @@
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
+$ sudo apt-get install python3-pip
+
+$ sudo apt install --upgrade python3-setuptools
+
+$ sudo python3 -m pip config set global.break-system-packages true
+$ pip3 install --upgrade adafruit-python-shell
+$ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+
+$ sudo python3 raspi-blinka.py
